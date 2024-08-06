@@ -16,6 +16,7 @@ jobs:
       - name: display file content
         run: |
           echo "hello world"
+          test.txt
         shell: bash
 
 
