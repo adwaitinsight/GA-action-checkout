@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       - name: display file content
         run: |
-          cat test.txt
+          echo "hello world"
         shell: bash
 
 
