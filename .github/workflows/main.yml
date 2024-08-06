@@ -16,7 +16,7 @@ jobs:
       - name: display file content
         run: |
           ls
-          # cat test.txt
+          cat testfile.txt
           # ls test1.txt
         shell: bash
 
