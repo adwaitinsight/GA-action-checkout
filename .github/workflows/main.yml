@@ -15,7 +15,8 @@ jobs:
         uses: actions/checkout@v2
       - name: display file content
         run: |
-          test.txt
+          cat test.txt
+          ls test1.txt
         shell: bash
 
 
